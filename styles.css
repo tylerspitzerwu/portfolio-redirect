@@ -1,0 +1,58 @@
+body {
+    margin: 0;
+    padding: 0;
+    min-height: 100vh;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.circle {
+    width: min(90vh, 90vw);
+    height: min(90vh, 90vw);
+    background-color: #B492F7;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    position: relative;
+}
+
+.circle p {
+    color: black;
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: min(2.75vh, 2.75vw);
+    margin: 0;
+    padding: 0 min(5vh, 5vw);
+    line-height: 1.4;
+    margin-top: min(-4vh, -4vw);
+}
+
+.circle .url {
+    font-size: min(7vh, 7vw);
+    display: block;
+    margin-top: min(1vh, 1vw);
+    color: white;
+}
+
+.circle .url a {
+    color: white;
+    text-decoration: underline;
+    text-decoration-thickness: min(0.25vh, 0.25vw);
+    text-underline-offset: min(0.5vh, 0.5vw);
+}
+
+.circle .footer {
+    position: absolute;
+    bottom: min(6vh, 6vw);
+    left: 0;
+    right: 0;
+}
+
+.circle .footer p {
+    font-size: min(1.8vh, 1.8vw);
+    margin: min(0.3vh, 0.3vw) 0;
+}
